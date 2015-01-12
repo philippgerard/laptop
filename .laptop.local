@@ -1,1 +1,9 @@
-# ...
+#!/bin/sh
+
+brew tap caskroom/cask
+brew install brew-cask
+
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install chefdk
+brew cask install glimmerblocker
